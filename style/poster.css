@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+
+header{
+    height: 100vh;
+    background-image: url(../assets/imagenes/header.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+}
+
+.colorLetra{
+    color: white;
+}
+.sec1{
+    display: flex;
+    margin: 20px 250px;
+    justify-content: space-between;
+}
+.textos{
+    width: 40%;
+
+}
+
+
+.imagesMostrar{
+    height: 400px;
+    width: 20%;
+}
+.botones{
+    border: none; 
+    padding: 14px 28px; 
+    font-size: 16px;
+    border-radius: 5px; 
+    background-color: #ff5069;
+}
+
+.titulos{
+    background: linear-gradient(to right, red, blue);
+    -webkit-background-clip: text; 
+    background-clip: text; 
+    color: transparent; 
+}
+
+.guitar{
+    height: 80vh;
+    background-image: url(../assets/imagenes/sec3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+.textoblanco{
+    color: white;
+    width: 40%;
+    justify-content: flex-end;
+}
+
+footer {
+    background-color: #ff5069;
+    color: #fff;
+    padding: 20px;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.lista{
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 100px;
+}
+
+.derechos{
+    display: flex;
+    justify-content: flex-start;
+}
